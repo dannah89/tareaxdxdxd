@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //ciclos o recorridos
+        /*
+        * Sintaxis -> while(condition) {//ingresa el cuerpo del wile}
+        */
+        var sumatoria = 0;
+        while (sumatoria < 10) {
+            console.log(sumatoria);
+            sumatoria++;
+        }
+
+        //1 PRIMERA ACTIIDAD 
+        var arreglo = [2, 3, 4, 5, 6, 7, 8, 9, 0];
+        var actividad = 0;
+        while (actividad < arreglo.length) { }
+        console.log(actividad < arreglo.length); {
+            if (actividad % 2 == 0) {
+                console.log("posiciones pares:", actividad);
+            }
+            else if (actividad % 2 == 1) {
+                console.log("posiciones impares:", actividad);
+
+            }
+        };
+    </script>
+    <script>
+        //switch
+        /*
+        *sintaxis -> switch(expresion) {
+            case :
+            brek ;
+            ...
+           
+        }
+        */
+        var frutaPreferida = 'Manzana';
+        switch (frutaPreferida) {
+            case 'Piña':
+                console.log('Su fruta preferida es la piña');
+                break;
+            case 'Banano':
+                console.log('Su fruta preferida es la banano');
+                break;
+            case 'Melon':
+                console.log('Su fruta preferida es la melon');
+                break;
+            default:
+                console.log('Su fruta preferida no la tenemos en el almacen');
+        }
+
+        //crear switch con todos los dias de la semana, y la expresion la van
+        //a llamar dia y la incualizan en cualquier valor de un dia entre semana
+
+         var Día = 'jueves';
+        switch (Día) {
+             case 'Lunes':
+        consola.log('Hoy es Lunes');
+        quebrar;
+             case 'Martes':
+        consola.log('Hoy es Martes');
+        quebrar;
+        case 'Miercoles':
+        consola.log('Hoy es Miercoles');
+        quebrar;
+             case 'jueves':
+        consola.log('Hoy es jueves');
+        quebrar;
+             case 'viernes':
+        consola.log('Hoy es viernes');
+        quebrar;
+             case 'sabado':
+        consola.log('Hoy es sabado');
+        quebrar;
+             case 'domingo':
+        consola.log('Hoy es domingo');
+        default:
+                console.log('estos son los dias de la semana');
+            
+        }
+
+    </script>
+
+</body>
+
+</html>
